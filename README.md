@@ -17,7 +17,7 @@ Permite importar arquivos `.txt` ou `.docx`, exportar resultados em `.txt` ou `.
 
 ## 📸 Screenshot / GIF
 
-<img width="1429" height="774" alt="Screenshot 2025-11-19 230746" src="https://github.com/user-attachments/assets/c9400c3e-ab18-4225-942d-ae0c496d2746" />
+<img width="500" height="500" alt="Screenshot 2025-11-19 230746" src="https://github.com/user-attachments/assets/c9400c3e-ab18-4225-942d-ae0c496d2746" />
 
 
 
