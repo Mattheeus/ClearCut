@@ -6,8 +6,8 @@ export default function ImportSummary({ setText }) {
     const file = e.target.files[0];
     if (!file) return;
 
-    // Limite (3 MB)
-    if (file.size > 3 * 1024 * 1024) {
+    // Limite (50 MB)
+    if (file.size > 50 * 1024 * 1024) {
       alert("Arquivo muito grande. Máx 3 MB.");
       e.target.value = "";
       return;
