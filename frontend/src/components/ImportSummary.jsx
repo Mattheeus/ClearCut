@@ -8,7 +8,7 @@ export default function ImportSummary({ setText }) {
 
     // Limite (50 MB)
     if (file.size > 50 * 1024 * 1024) {
-      alert("Arquivo muito grande. Máx 3 MB.");
+      alert("Arquivo muito grande. Máx 50 MB.");
       e.target.value = "";
       return;
     }
@@ -74,7 +74,7 @@ export default function ImportSummary({ setText }) {
         onChange={handleFileUpload}
       />
       <small className="text-gray-600 mt-2 text-sm">
-        Suporta arquivos .txt e .docx
+        Suporta arquivos .txt e .docx (não suporta livros escaneados e imagens) - Máx 50 MB
       </small>
     </div>
   );
