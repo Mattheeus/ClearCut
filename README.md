@@ -1,7 +1,12 @@
 # ClearCut 📝
 
-ClearCut é uma aplicação web que utiliza IA para **resumir textos longos** de forma clara e direta.  
-Permite importar arquivos `.txt` ou `.docx`, exportar resultados em `.txt` ou `.pdf` e selecionar diferentes modelos de IA.
+## 📌 Sobre o projeto
+
+ClearCut é uma aplicação web para resumo de textos utilizando Inteligência Artificial, com foco em clareza e objetividade.
+
+A aplicação permite importar arquivos `.txt` ou `.docx`, exportar resultados em `.txt` ou `.pdf` e selecionar diferentes modelos de IA.
+
+O sistema está deployado com **frontend na Vercel** e **backend no Railway**, garantindo integração full stack em ambiente de produção e comunicação com API de IA.
 
 ---
 
